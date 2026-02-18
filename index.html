@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>History Leaks</title>
+
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="custom.css" />
+</head>
+
+<body>
+  <!-- Intro overlay (letters assemble) -->
+  <div id="intro" class="intro" aria-hidden="false">
+    <button class="skip" id="skipIntro" type="button">Skip</button>
+
+    <div class="intro-center">
+      <div class="wordmark" id="wordmark" aria-label="History Leaks"></div>
+      <p class="tagline">Research • Archives • Stories</p>
+    </div>
+  </div>
+
+  <!-- Top bar -->
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="History Leaks home">
+        <span class="brand-mark">H</span>
+        <span class="brand-text">
+          <span class="brand-name">History</span><span class="brand-name light">Leaks</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#work">Examples</a>
+        <a class="btn" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <h1>Historical research that’s clear, careful, and properly sourced.</h1>
+          <p>
+            From archives to family history to production research packs —
+            I turn messy evidence into a confident, readable narrative.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="#contact">Enquire</a>
+            <a class="btn ghost" href="#services">What I offer</a>
+          </div>
+
+          <p class="micro">
+            Email: <a href="mailto:historyleaksresearch@gmail.com">historyleaksresearch@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="hero-card" role="note" aria-label="Quick promise">
+          <h2>What you’ll get</h2>
+          <ul>
+            <li>Transparent sourcing (and what’s uncertain)</li>
+            <li>Plain-English summaries + optional deep detail</li>
+            <li>Searchable notes and tidy reference lists</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="wrap">
+        <h2>Services</h2>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Archive & document research</h3>
+            <p>Targeted archive searches, document pulls, summaries, and source trails you can trust.</p>
+          </article>
+
+          <article class="card">
+            <h3>Family & local history</h3>
+            <p>Records, context, and narrative — with clear “proof vs. plausible” signposting.</p>
+          </article>
+
+          <article class="card">
+            <h3>Research packs for writers & media</h3>
+            <p>Period detail, timelines, terminology, and sources that support authentic storytelling.</p>
+          </article>
+
+          <article class="card">
+            <h3>Education & talks</h3>
+            <p>Engaging sessions on how to read sources, spot myths, and build evidence-led stories.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Approach -->
+    <section id="approach" class="section alt">
+      <div class="wrap">
+        <h2>Approach</h2>
+
+        <div class="split">
+          <div>
+            <h3>1) Define the question</h3>
+            <p>We agree scope, time period, deliverables, and what “done” looks like.</p>
+
+            <h3>2) Gather and verify</h3>
+            <p>I collect sources, log citations, and note reliability, gaps, and contradictions.</p>
+
+            <h3>3) Deliver in layers</h3>
+            <p>You get a readable summary first — then the supporting detail and references.</p>
+          </div>
+
+          <div class="panel">
+            <h3>Typical outputs</h3>
+            <ul>
+              <li>Summary report (plain English)</li>
+              <li>Timeline (events + sources)</li>
+              <li>Source list / bibliography</li>
+              <li>Scans/links where available</li>
+              <li>“Next best steps” recommendations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Examples -->
+    <section id="work" class="section">
+      <div class="wrap">
+        <h2>Examples</h2>
+        <p class="lead">A few example project types (swap these for real case studies when ready).</p>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Institutional workforce records</h3>
+            <p>Structured extraction + analysis from historical employment books and registers.</p>
+          </article>
+
+          <article class="card">
+            <h3>19th–20th century social history</h3>
+            <p>Contextual research linking individual stories to wider policy, economy, and culture.</p>
+          </article>
+
+          <article class="card">
+            <h3>Script support</h3>
+            <p>Period language, material culture, “what would they know?” checks, and source packs.</p>
+          </article>
+
+          <article class="card">
+            <h3>Myth-busting & fact checking</h3>
+            <p>Trace the claim, find the original source (or lack of one), and show the evidence trail.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section alt">
+      <div class="wrap">
+        <h2>Contact</h2>
+
+        <div class="contact">
+          <div class="card">
+            <h3>Email</h3>
+            <p>
+              <a href="mailto:historyleaksresearch@gmail.com">historyleaksresearch@gmail.com</a>
+            </p>
+            <p class="micro">Tell me what you’re trying to find, the rough time period, and any names/places you already have.</p>
+          </div>
+
+          <form class="card" onsubmit="return false;" aria-label="Contact form (placeholder)">
+            <h3>Quick message</h3>
+            <label>
+              Your name
+              <input type="text" placeholder="Name" />
+            </label>
+
+            <label>
+              Your email
+              <input type="email" placeholder="Email" />
+            </label>
+
+            <label>
+              What are you looking for?
+              <textarea rows="4" placeholder="A few sentences is plenty..."></textarea>
+            </label>
+
+            <p class="micro">
+              (This form is a placeholder. For now, email is best.)
+            </p>
+
+            <button class="btn" type="button">Send (disabled)</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year"></span> History Leaks</p>
+      <p class="micro">
+        <a href="#top">Back to top</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

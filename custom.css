@@ -1,0 +1,79 @@
+:root{
+
+  /* Backgrounds */
+  --hl-bg-main: #f6f3ee;        /* warm off-white page background */
+  --hl-bg-paper: #ffffff;       /* cards, panels */
+  --hl-bg-soft: #fbfaf7;        /* subtle alt section */
+
+  /* Brand blues (matte museum vibe) */
+  --hl-blue-main: #2b4356;      /* primary matte blue */
+  --hl-blue-deep: #1f3546;      /* darker headings/nav */
+  --hl-blue-soft: #5f7688;      /* muted blue for text accents */
+
+  /* Text colours */
+  --hl-text-main: #121820;      /* main body text */
+  --hl-text-muted: #4a5866;     /* softer paragraph text */
+  --hl-text-light: #ffffff;     /* text on dark backgrounds */
+
+  /* Borders + UI */
+  --hl-line-soft: rgba(31,53,70,.14);
+  --hl-shadow-soft: 0 10px 28px rgba(18,24,32,.08);
+
+  /* Buttons */
+  --hl-btn-bg: var(--hl-blue-main);
+  --hl-btn-text: #ffffff;
+  --hl-btn-hover: #22394a;
+
+}
+
+body{
+  background: var(--hl-bg-main);
+  color: var(--hl-text-main);
+}
+
+.section.alt{
+  background: var(--hl-bg-soft);
+}
+
+.card,
+.panel,
+.hero-card{
+  background: var(--hl-bg-paper);
+  border: 1px solid var(--hl-line-soft);
+  box-shadow: var(--hl-shadow-soft);
+}
+
+.header{
+  background: rgba(246,243,238,.9);
+  border-bottom: 1px solid var(--hl-line-soft);
+}
+
+/* Links */
+a{
+  color: var(--hl-blue-main);
+}
+
+/* Buttons */
+.btn{
+  background: var(--hl-btn-bg);
+  color: var(--hl-btn-text);
+}
+
+.btn:hover{
+  background: var(--hl-btn-hover);
+}
+
+/* Intro overlay colours */
+.intro{
+  background:
+    radial-gradient(900px 420px at 50% 40%, rgba(43,67,86,.16), transparent 60%),
+    var(--hl-bg-main);
+}
+
+.wordmark{
+  color: var(--hl-blue-deep);
+}
+
+.tagline{
+  color: var(--hl-blue-soft);
+}
